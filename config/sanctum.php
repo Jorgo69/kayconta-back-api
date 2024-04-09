@@ -46,7 +46,8 @@ return [
     |
     */
 
-    'expiration' => null,
+    'expiration' => 60 * 1, // minute * nombre de fois
+    'refresh' => 15,
 
     /*
     |--------------------------------------------------------------------------
